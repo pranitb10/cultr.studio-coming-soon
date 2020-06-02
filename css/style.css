@@ -43,14 +43,15 @@ body {
 
 .home-content h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 64px;
+	font-size: 80px;
 	color:white;
 	letter-spacing: 1rem;
+	font-weight: 600;
 }
 
 .home-content h4{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 35px;
 	color:white;
 }
 
