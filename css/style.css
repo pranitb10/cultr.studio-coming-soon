@@ -1,0 +1,67 @@
+/* --- typography --- */
+body {
+	overflow-x:hidden;
+}
+
+/* --- Background Image --- */
+.bg-image {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-position:center;
+	background-size:cover;
+	z-index:-1;
+}
+
+.bg-image.bg-parallax {
+	background-attachment:fixed;
+}
+
+/*------------------------------------*\
+	Home
+\*------------------------------------*/
+.banner-area {
+	position:relative;
+	padding-bottom:40px;
+}
+
+.banner-area .home-wrapper {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+
+#home {
+	height:100vh;
+}
+
+.home-content h1 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1rem;
+	border: 2px solid;
+	font-size: 64px;
+	color:white;
+}
+
+.home-content h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color:white;
+}
+
+
+/*------------------------------------*\
+	Responsive
+\*------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+	/* --- home --- */
+	.home-content h1 {
+		font-size:50px;
+	}
