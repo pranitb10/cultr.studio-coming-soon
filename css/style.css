@@ -43,10 +43,9 @@ body {
 
 .home-content h1 {
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 1rem;
-	border: 2px solid;
 	font-size: 64px;
 	color:white;
+	letter-spacing: 1rem;
 }
 
 .home-content h4{
@@ -60,8 +59,17 @@ body {
 	Responsive
 \*------------------------------------*/
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 590px) {
 	/* --- home --- */
 	.home-content h1 {
-		font-size:50px;
+		font-size:28px;
 	}
+	.home-content h4 {
+		font-size:20px;
+	}
+}
+
+span{
+	border: 1px solid;
+	padding-left: 7px;
+}
