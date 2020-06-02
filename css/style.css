@@ -1,6 +1,6 @@
 /* --- typography --- */
 body {
-	overflow-x:hidden;
+	overflow:hidden;
 }
 
 /* --- Background Image --- */
@@ -67,6 +67,9 @@ body {
 	}
 	.home-content h4 {
 		font-size:20px;
+	}
+	body{
+		overflow: hidden;
 	}
 }
 
